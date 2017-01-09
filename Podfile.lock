@@ -1,0 +1,20 @@
+PODS:
+  - Charts (3.0.1):
+    - Charts/Core (= 3.0.1)
+  - Charts/Core (3.0.1)
+  - Eureka (2.0.0-beta.1)
+  - SideMenuController (0.2.1)
+
+DEPENDENCIES:
+  - Charts
+  - Eureka (~> 2.0.0-beta.1)
+  - SideMenuController
+
+SPEC CHECKSUMS:
+  Charts: 0e84f4418e87dad6a9edde221fba37ebb51d3ba7
+  Eureka: d014adf16406745e1a78d5790ea37ed130a0a8e5
+  SideMenuController: 4c543122289d74e1db9d1e24fd3264581fd6ac4e
+
+PODFILE CHECKSUM: 4ff16860487d07a0255b32cb9bcc099b8babcc60
+
+COCOAPODS: 1.2.0.beta.1
