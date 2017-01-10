@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Assets</key>
+		<dict>
+			<key>Income</key>
+			<array>
+				<dict>
+					<key>Value</key>
+					<integer>10</integer>
+					<key>Title</key>
+					<string>International equities</string>
+				</dict>
+				<dict>
+					<key>Value</key>
+					<integer>5</integer>
+					<key>Title</key>
+					<string>Australian equities</string>
+				</dict>
+			</array>
+			<key>Growth</key>
+			<array>
+				<dict>
+					<key>Value</key>
+					<integer>60</integer>
+					<key>Title</key>
+					<string>Cash and cash equivalents</string>
+				</dict>
+				<dict>
+					<key>Value</key>
+					<integer>15</integer>
+					<key>Title</key>
+					<string>New Zealand fixed interest</string>
+				</dict>
+				<dict>
+					<key>Value</key>
+					<integer>10</integer>
+					<key>Title</key>
+					<string>International fixed interest</string>
+				</dict>
+			</array>
+		</dict>
+		<key>Info</key>
+		<array>
+			<string>The fund&apos;s objective is to provide relatively consistent returns, subject to a capital guarantine (see below).</string>
+			<string>It aims to achieve returns (after fees but before tax) of at least 1.5% per year above inflation over any two year period.</string>
+			<string>Generally, there may be small movements up and down in the value of the fund.</string>
+			<string>The fund invests mainly in income assets, and includes only a small amount of growth assets.</string>
+		</array>
+		<key>Title</key>
+		<string>Capital Guaranteed Fund</string>
+	</dict>
+    <dict>
+        <key>Assets</key>
+        <dict>
+            <key>Income</key>
+            <array>
+                <dict>
+                    <key>Value</key>
+                    <integer>11</integer>
+                    <key>Title</key>
+                    <string>International equities</string>
+                </dict>
+                <dict>
+                    <key>Value</key>
+                    <integer>7</integer>
+                    <key>Title</key>
+                    <string>Australian equities</string>
+                </dict>
+                <dict>
+                    <key>Value</key>
+                    <integer>2</integer>
+                    <key>Title</key>
+                    <string>Listed property</string>
+                </dict>
+            </array>
+            <key>Growth</key>
+            <array>
+                <dict>
+                    <key>Value</key>
+                    <integer>20</integer>
+                    <key>Title</key>
+                    <string>Cash and cash equivalents</string>
+                </dict>
+                <dict>
+                    <key>Value</key>
+                    <integer>35</integer>
+                    <key>Title</key>
+                    <string>New Zealand fixed interest</string>
+                </dict>
+                <dict>
+                    <key>Value</key>
+                    <integer>20</integer>
+                    <key>Title</key>
+                    <string>International fixed interest</string>
+                </dict>
+            </array>
+        </dict>
+        <key>Info</key>
+        <array>
+            <string>The fund's objective is to provide relatively consistent but modest returns, with some capital gains over the long-term</string>
+            <string>It aims to achieve returns (after fees but before tax) of at least 2.0% per year above inflation over any three year period.</string>
+            <string>Generally, there will be small movements up and down in the value of the fund, reflecting its temporary holding nature.</string>
+            <string>The fund invests mainly in income assets, but includes some growth assets.</string>
+        </array>
+        <key>Title</key>
+        <string>Default Saver Fund</string>
+    </dict>
+    <dict>
+        <key>Assets</key>
+        <dict>
+            <key>Income</key>
+            <array>
+                <dict>
+                    <key>Value</key>
+                    <integer>19</integer>
+                    <key>Title</key>
+                    <string>International equities</string>
+                </dict>
+                <dict>
+                    <key>Value</key>
+                    <integer>12</integer>
+                    <key>Title</key>
+                    <string>Australian equities</string>
+                </dict>
+                <dict>
+                    <key>Value</key>
+                    <integer>4</integer>
+                    <key>Title</key>
+                    <string>Listed property</string>
+                </dict>
+            </array>
+            <key>Growth</key>
+            <array>
+                <dict>
+                    <key>Value</key>
+                    <integer>15</integer>
+                    <key>Title</key>
+                    <string>Cash and cash equivalents</string>
+                </dict>
+                <dict>
+                    <key>Value</key>
+                    <integer>30</integer>
+                    <key>Title</key>
+                    <string>New Zealand fixed interest</string>
+                </dict>
+                <dict>
+                    <key>Value</key>
+                    <integer>20</integer>
+                    <key>Title</key>
+                    <string>International fixed interest</string>
+                </dict>
+            </array>
+        </dict>
+        <key>Info</key>
+        <array>
+            <string>The fund's objective is to provide relatively consistent returns, with some capital gains over the long-term</string>
+            <string>It aims to achieve returns (after fees but before tax) of at least 2.5% per year above inflation over any four year period.</string>
+            <string>Generally, there will be small movements up and down in the value of the fund.</string>
+            <string>The fund invests mainly in income assets, but includes some growth assets.</string>
+        </array>
+        <key>Title</key>
+        <string>Moderate Fund</string>
+    </dict>
+    <dict>
+        <key>Assets</key>
+        <dict>
+            <key>Income</key>
+            <array>
+                <dict>
+                    <key>Value</key>
+                    <integer>30</integer>
+                    <key>Title</key>
+                    <string>International equities</string>
+                </dict>
+                <dict>
+                    <key>Value</key>
+                    <integer>18</integer>
+                    <key>Title</key>
+                    <string>Australian equities</string>
+                </dict>
+                <dict>
+                    <key>Value</key>
+                    <integer>7</integer>
+                    <key>Title</key>
+                    <string>Listed property</string>
+                </dict>
+            </array>
+            <key>Growth</key>
+            <array>
+                <dict>
+                    <key>Value</key>
+                    <integer>2</integer>
+                    <key>Title</key>
+                    <string>Cash and cash equivalents</string>
+                </dict>
+                <dict>
+                    <key>Value</key>
+                    <integer>17</integer>
+                    <key>Title</key>
+                    <string>New Zealand fixed interest</string>
+                </dict>
+                <dict>
+                    <key>Value</key>
+                    <integer>26</integer>
+                    <key>Title</key>
+                    <string>International fixed interest</string>
+                </dict>
+            </array>
+        </dict>
+        <key>Info</key>
+        <array>
+            <string>The fund's objective is to provide an enhanced return over the long-term through capital gains.</string>
+            <string>It aims to achieve returns (after fees but before tax) of at least 3% per year above inflation over any five year period.</string>
+            <string>There will be some movements up and down in the value of fund.</string>
+            <string>The fund invests in a more balanced mix of income assets and growth assets.</string>
+        </array>
+        <key>Title</key>
+        <string>Balanced Fund</string>
+    </dict>
+    <dict>
+        <key>Assets</key>
+        <dict>
+            <key>Income</key>
+            <array>
+                <dict>
+                    <key>Value</key>
+                    <integer>41</integer>
+                    <key>Title</key>
+                    <string>International equities</string>
+                </dict>
+                <dict>
+                    <key>Value</key>
+                    <integer>25</integer>
+                    <key>Title</key>
+                    <string>Australian equities</string>
+                </dict>
+                <dict>
+                    <key>Value</key>
+                    <integer>9</integer>
+                    <key>Title</key>
+                    <string>Listed property</string>
+                </dict>
+            </array>
+            <key>Growth</key>
+            <array>
+                <dict>
+                    <key>Value</key>
+                    <integer>2</integer>
+                    <key>Title</key>
+                    <string>Cash and cash equivalents</string>
+                </dict>
+                <dict>
+                    <key>Value</key>
+                    <integer>9</integer>
+                    <key>Title</key>
+                    <string>New Zealand fixed interest</string>
+                </dict>
+                <dict>
+                    <key>Value</key>
+                    <integer>14</integer>
+                    <key>Title</key>
+                    <string>International fixed interest</string>
+                </dict>
+            </array>
+        </dict>
+        <key>Info</key>
+        <array>
+            <string>The fund's objective is to provide long-term capital gains but to partially offset short-term movements up and down with some income assets.</string>
+            <string>It aims to achieve returns (after fees but before tax) of at least 4% per year above inflation over any seven year period.</string>
+            <string>There will be larger movements up adn down in the value of the fund compared to the Balanced Fund.</string>
+            <string>The fund invests mainly in growth assets, but includes some income assets.</string>
+        </array>
+        <key>Title</key>
+        <string>Balanced Growth Fund</string>
+    </dict>
+    <dict>
+        <key>Assets</key>
+        <dict>
+            <key>Income</key>
+            <array>
+                <dict>
+                    <key>Value</key>
+                    <integer>54</integer>
+                    <key>Title</key>
+                    <string>International equities</string>
+                </dict>
+                <dict>
+                    <key>Value</key>
+                    <integer>32</integer>
+                    <key>Title</key>
+                    <string>Australian equities</string>
+                </dict>
+                <dict>
+                    <key>Value</key>
+                    <integer>12</integer>
+                    <key>Title</key>
+                    <string>Listed property</string>
+                </dict>
+            </array>
+            <key>Growth</key>
+            <array>
+                <dict>
+                    <key>Value</key>
+                    <integer>2</integer>
+                    <key>Title</key>
+                    <string>Cash and cash equivalents</string>
+                </dict>
+            </array>
+        </dict>
+        <key>Info</key>
+        <array>
+            <string>The fund's objective is to maximize the potental for capital gains ove the long-term.</string>
+            <string>It aims to achieve returns (after fees but before tax) of at least 5% per year above inflation over any ten year period.</string>
+            <string>There will be significatn movements up and down in the value of fund.</string>
+            <string>The fund invests predominantly in growth assets, with little or no allocation to income assets</string>
+        </array>
+        <key>Title</key>
+        <string>High Growth Fund</string>
+    </dict>
+</array>
+</plist>

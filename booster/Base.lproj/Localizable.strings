@@ -1,0 +1,22 @@
+/* 
+  localize.strings
+  booster
+
+  Created by Tomas Radvansky on 10/01/2017.
+  Copyright © 2017 Tomas Radvansky. All rights reserved.
+*/
+
+Global_Ok = "Ok";
+Global_Cancel = "Cancel";
+Global_Yes = "Yes";
+Global_No = "No";
+Global_Done = "Done";
+Global_Save = "Save";
+Global_Send = "Send";
+Global_Next = "Next";
+Global_Retry = "Retry";
+Global_Remove = "Remove";
+Global_Upload = "Upload";
+Global_Error = "Error";
+
+WelcomeVC_Welcome_Button = "Welcome";

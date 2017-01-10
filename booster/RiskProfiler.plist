@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Answers</key>
+		<array>
+			<dict>
+				<key>Answer</key>
+				<string>Within 2 years</string>
+				<key>Value</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>Answer</key>
+				<string>In 2 to 5 years</string>
+				<key>Value</key>
+				<integer>3</integer>
+			</dict>
+			<dict>
+				<key>Answer</key>
+				<string>In 6 to 10 years</string>
+				<key>Value</key>
+				<integer>5</integer>
+			</dict>
+			<dict>
+				<key>Answer</key>
+				<string>In 11 to 20 years</string>
+				<key>Value</key>
+				<integer>7</integer>
+			</dict>
+			<dict>
+				<key>Answer</key>
+				<string>More than 20</string>
+				<key>Value</key>
+				<integer>10</integer>
+			</dict>
+		</array>
+		<key>Question</key>
+		<string>When do you plan to make a signiicant lump sum withdrawal from your portfolio, for example, for the purchase of a first home or for retirement needs? (From age 65 at the earliest)</string>
+		<key>ID</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>Answers</key>
+		<array>
+			<dict>
+				<key>Answer</key>
+				<string>I want to minimise my risk and am therefore willing to accept low returns</string>
+				<key>Value</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>Answer</key>
+				<string>I am willing to take a moderate amount of risk to generate low to medium returns</string>
+				<key>Value</key>
+				<integer>3</integer>
+			</dict>
+			<dict>
+				<key>Answer</key>
+				<string>I am willing to take a reasonable amount of risk to provide a more medium return</string>
+				<key>Value</key>
+				<integer>5</integer>
+			</dict>
+			<dict>
+				<key>Answer</key>
+				<string>In order to receive higher returns, I am willing to take a relatively high amount of risk</string>
+				<key>Value</key>
+				<integer>7</integer>
+			</dict>
+			<dict>
+				<key>Answer</key>
+				<string>I want to maximise my returns and am willing to accept a high level of risk</string>
+				<key>Value</key>
+				<integer>10</integer>
+			</dict>
+		</array>
+		<key>Question</key>
+		<string>Which of the following questions best describes your thoughts about risks and returns?</string>
+		<key>ID</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>Answers</key>
+		<array>
+			<dict>
+				<key>Answer</key>
+				<string>Strongly Agree</string>
+				<key>Value</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>Answer</key>
+				<string>Agree</string>
+				<key>Value</key>
+				<integer>3</integer>
+			</dict>
+			<dict>
+				<key>Answer</key>
+				<string>Neither agree or disagree</string>
+				<key>Value</key>
+				<integer>5</integer>
+			</dict>
+			<dict>
+				<key>Answer</key>
+				<string>Disagree</string>
+				<key>Value</key>
+				<integer>7</integer>
+			</dict>
+			<dict>
+				<key>Answer</key>
+				<string>Strongly Disagree</string>
+				<key>Value</key>
+				<integer>10</integer>
+			</dict>
+		</array>
+		<key>Question</key>
+		<string>Protecting my investment portfolio from a fall in value at any time is more important to me than achieving high returns?</string>
+		<key>ID</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>Answers</key>
+		<array>
+			<dict>
+				<key>Answer</key>
+				<string>I would be unhappy with any drop in value</string>
+				<key>Value</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>Answer</key>
+				<string>I would be OK with a drop in value of no more than 5%</string>
+				<key>Value</key>
+				<integer>3</integer>
+			</dict>
+			<dict>
+				<key>Answer</key>
+				<string>NI would be OK with a drop in value of no more than 10%</string>
+				<key>Value</key>
+				<integer>5</integer>
+			</dict>
+			<dict>
+				<key>Answer</key>
+				<string>I would be OK with a drop in value of up to 15%</string>
+				<key>Value</key>
+				<integer>7</integer>
+			</dict>
+			<dict>
+				<key>Answer</key>
+				<string>I would be OK with a drop in value of up to 20%</string>
+				<key>Value</key>
+				<integer>10</integer>
+			</dict>
+		</array>
+		<key>Question</key>
+		<string>Consider you have an investment balance of at least $20,000 or more. If after a short period of time (less than 1 year) your balance has dropped in value, which statement relects best how you would feel about this?</string>
+		<key>ID</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>Answers</key>
+		<array>
+			<dict>
+				<key>Answer</key>
+				<string>Daily</string>
+				<key>Value</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>Answer</key>
+				<string>Monthly</string>
+				<key>Value</key>
+				<integer>3</integer>
+			</dict>
+			<dict>
+				<key>Answer</key>
+				<string>Quarterly</string>
+				<key>Value</key>
+				<integer>5</integer>
+			</dict>
+			<dict>
+				<key>Answer</key>
+				<string>Annually</string>
+				<key>Value</key>
+				<integer>7</integer>
+			</dict>
+			<dict>
+				<key>Answer</key>
+				<string>Never or only occasionally over the longer term</string>
+				<key>Value</key>
+				<integer>10</integer>
+			</dict>
+		</array>
+		<key>Question</key>
+		<string>How often would you tend to worry about your investment returns?</string>
+		<key>ID</key>
+		<integer>4</integer>
+	</dict>
+</array>
+</plist>

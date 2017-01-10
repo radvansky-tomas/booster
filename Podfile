@@ -7,6 +7,8 @@ target 'booster' do
 
   # Pods for booster
 	pod 'Charts'
-	pod 'Eureka', '~> 2.0.0-beta.1'
 	pod 'SideMenuController'
+    pod 'Pages'
+    pod 'Font-Awesome-Swift', '~> 1.5.2'
+    pod 'GaugeKit'
 end
