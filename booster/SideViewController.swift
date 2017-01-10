@@ -11,7 +11,7 @@ import UIKit
 import Pages
 import SideMenuController
 
-class SideViewController: UIViewController,UITableViewDelegate,UITableViewDataSource,PagesControllerDelegate,QuestionnaireDelegate {
+class SideViewController: UIViewController,UITableViewDelegate,UITableViewDataSource,PagesControllerDelegate,QuestionnaireDelegate,SideMenuControllerDelegate {
     
     @IBOutlet weak var mainTableView: UITableView!
     var pages:PagesController?
@@ -22,6 +22,15 @@ class SideViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         self.mainTableView.register(UINib.init(nibName: "SideMenuCell", bundle: nil), forCellReuseIdentifier: "SideMenuCell")
         self.mainTableView.register(UINib(nibName: "SideHeader", bundle: nil), forHeaderFooterViewReuseIdentifier: "SideHeader")
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    func sideMenuControllerDidHide(_ sideMenuController: SideMenuController) {
+        print("hide")
+    }
+    
+    func sideMenuControllerDidReveal(_ sideMenuController: SideMenuController) {
+        print("reveal")
+        self.mainTableView.reloadData()
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -77,11 +86,12 @@ class SideViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         if section == 0
         {
             header.customLabel.text = "Investor Types"
+            header.customButton.isUserInteractionEnabled = false
         }
         else
         {
             header.customLabel.text = "Questionnaire"
-            header.customButton.setImage(UIImage.init(icon: .FAQuestionCircle, size: CGSize.init(width: 16.0, height: 16.0), textColor: DefaultTheme.Color(color: .primaryColorDark), backgroundColor: UIColor.clear), for: .normal)
+            header.customButton.isUserInteractionEnabled = true
             header.customButton.addTarget(forControlEvents: .touchUpInside, withClosure: { (control) in
                 if let customSideMenuController:CustomSideMenuController = self.sideMenuController as? CustomSideMenuController
                 {
@@ -151,6 +161,10 @@ class SideViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         if indexPath.section == 0
         {
          sideMenuController?.performSegue(withIdentifier: "DetailFundSegue", sender: indexPath.row)
+        }
+        else
+        {
+              sideMenuController?.performSegue(withIdentifier: "SubmitSegue", sender: nil)
         }
     }
     

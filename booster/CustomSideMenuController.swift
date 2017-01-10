@@ -11,7 +11,7 @@ import UIKit
 import SideMenuController
 import Font_Awesome_Swift
 
-class CustomSideMenuController: SideMenuController,SideMenuControllerDelegate {
+class CustomSideMenuController: SideMenuController {
     var currentQData:[String:Int]?
     
     required init?(coder aDecoder: NSCoder) {
@@ -23,11 +23,11 @@ class CustomSideMenuController: SideMenuController,SideMenuControllerDelegate {
         super.init(coder: aDecoder)
     }
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         performSegue(withIdentifier: "embedInitialCenterController", sender: nil)
         performSegue(withIdentifier: "embedSideController", sender: nil)
+        self.delegate = self.sideViewController as! SideViewController
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -45,5 +45,13 @@ class CustomSideMenuController: SideMenuController,SideMenuControllerDelegate {
             }
             dest.result = self.currentQData!
         }
+        else if segue.identifier == "SubmitSegue"
+        {
+              let dest:SubmitViewController = (segue.destination as! UINavigationController).viewControllers[0] as! SubmitViewController
+        }
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
 }

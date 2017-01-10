@@ -15,6 +15,7 @@ class QuestionnaireResultsViewController: UIViewController {
     @IBOutlet weak var gaugeView: Gauge!
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var resultLabel: UILabel!
+    @IBOutlet weak var showBtn: ALLocalizableButton!
     
     var result:[String:Int]?
     var score:Int = 0
@@ -27,12 +28,22 @@ class QuestionnaireResultsViewController: UIViewController {
             {
                 score = score + entry
             }
-            gaugeView.rate = CGFloat(score)
-            scoreLabel.text = "\(score)"
-            resultLabel.text = "You are \(InvestorType.getTypeByScore(score: score).getDescription().lowercased()) investor!"
+            gaugeView.animateRate(1.5, newValue: CGFloat(score), completion: { (completed) in
+                self.resultLabel.text = "You are \(InvestorType.getTypeByScore(score: self.score).getDescription().lowercased()) investor!"
+                self.scoreLabel.text = "\(self.score)"
+                
+                UIView.animate(withDuration: 0.5, animations: {
+                    self.scoreLabel.alpha = 1.0
+                    self.resultLabel.alpha = 1.0
+                    self.showBtn.alpha = 1.0
+                })
+            })
+            
+            
         }
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -40,9 +51,10 @@ class QuestionnaireResultsViewController: UIViewController {
     }
     
     @IBAction func showBtnClicked(_ sender: Any) {
-     
+        if score > 0
+        {
             let investor = InvestorType.getTypeByScore(score: self.score)
             sideMenuController?.performSegue(withIdentifier: "DetailFundSegue", sender: investor.rawValue)
-        
+        }
     }
 }

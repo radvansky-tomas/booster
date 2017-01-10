@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		19483E7169D96046600884B1 /* Pods_booster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3761E052A2C59450E661EE1 /* Pods_booster.framework */; };
+		4106FAD41E259B7A00B54F9F /* SubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4106FAD31E259B7A00B54F9F /* SubmitViewController.swift */; };
 		41532F691E245BAF00AA4B94 /* booster-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41532F681E245BAF00AA4B94 /* booster-logo.jpg */; };
 		41532F731E245CF100AA4B94 /* ALLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41532F6D1E245CF100AA4B94 /* ALLayerView.swift */; };
 		41532F741E245CF100AA4B94 /* ALLocalizableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41532F6E1E245CF100AA4B94 /* ALLocalizableButton.swift */; };
@@ -20,7 +21,7 @@
 		41532F811E245EAF00AA4B94 /* DefaultTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41532F801E245EAF00AA4B94 /* DefaultTheme.swift */; };
 		41532F831E24619B00AA4B94 /* circulartt-book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41532F821E24619B00AA4B94 /* circulartt-book.ttf */; };
 		41532F851E24633600AA4B94 /* CustomSideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41532F841E24633600AA4B94 /* CustomSideMenuController.swift */; };
-		41532F871E24665D00AA4B94 /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41532F861E24665D00AA4B94 /* CenterViewController.swift */; };
+		41532F871E24665D00AA4B94 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41532F861E24665D00AA4B94 /* AboutViewController.swift */; };
 		41532F891E24669700AA4B94 /* SideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41532F881E24669700AA4B94 /* SideViewController.swift */; };
 		41532F8C1E2467D600AA4B94 /* SideMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41532F8B1E2467D600AA4B94 /* SideMenuCell.xib */; };
 		41532F8E1E2467E000AA4B94 /* SideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41532F8D1E2467E000AA4B94 /* SideMenuCell.swift */; };
@@ -41,13 +42,13 @@
 		41532FB11E24D38A00AA4B94 /* QuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41532FB01E24D38A00AA4B94 /* QuestionCell.swift */; };
 		41532FB31E24EC6E00AA4B94 /* QuestionnaireResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41532FB21E24EC6E00AA4B94 /* QuestionnaireResultsViewController.swift */; };
 		41FC26601E245507004353D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FC265F1E245507004353D1 /* AppDelegate.swift */; };
-		41FC26621E245507004353D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FC26611E245507004353D1 /* ViewController.swift */; };
 		41FC26651E245507004353D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41FC26631E245507004353D1 /* Main.storyboard */; };
 		41FC26671E245507004353D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41FC26661E245507004353D1 /* Assets.xcassets */; };
 		41FC266A1E245507004353D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41FC26681E245507004353D1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4106FAD31E259B7A00B54F9F /* SubmitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitViewController.swift; sourceTree = "<group>"; };
 		41532F681E245BAF00AA4B94 /* booster-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "booster-logo.jpg"; sourceTree = "<group>"; };
 		41532F6D1E245CF100AA4B94 /* ALLayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALLayerView.swift; sourceTree = "<group>"; };
 		41532F6E1E245CF100AA4B94 /* ALLocalizableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALLocalizableButton.swift; sourceTree = "<group>"; };
@@ -60,7 +61,7 @@
 		41532F801E245EAF00AA4B94 /* DefaultTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultTheme.swift; sourceTree = "<group>"; };
 		41532F821E24619B00AA4B94 /* circulartt-book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "circulartt-book.ttf"; sourceTree = "<group>"; };
 		41532F841E24633600AA4B94 /* CustomSideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSideMenuController.swift; sourceTree = "<group>"; };
-		41532F861E24665D00AA4B94 /* CenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
+		41532F861E24665D00AA4B94 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		41532F881E24669700AA4B94 /* SideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideViewController.swift; sourceTree = "<group>"; };
 		41532F8B1E2467D600AA4B94 /* SideMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuCell.xib; sourceTree = "<group>"; };
 		41532F8D1E2467E000AA4B94 /* SideMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuCell.swift; sourceTree = "<group>"; };
@@ -82,7 +83,6 @@
 		41532FB21E24EC6E00AA4B94 /* QuestionnaireResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionnaireResultsViewController.swift; sourceTree = "<group>"; };
 		41FC265C1E245507004353D1 /* booster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = booster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41FC265F1E245507004353D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41FC26611E245507004353D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41FC26641E245507004353D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41FC26661E245507004353D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41FC26691E245507004353D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -189,20 +189,20 @@
 				41532F6C1E245CCB00AA4B94 /* extensions */,
 				41532F671E245B9A00AA4B94 /* assets */,
 				41FC265F1E245507004353D1 /* AppDelegate.swift */,
-				41FC26611E245507004353D1 /* ViewController.swift */,
 				41FC26631E245507004353D1 /* Main.storyboard */,
 				41FC26661E245507004353D1 /* Assets.xcassets */,
 				41FC26681E245507004353D1 /* LaunchScreen.storyboard */,
 				41FC266B1E245507004353D1 /* Info.plist */,
 				41532F7F1E245E3500AA4B94 /* Localizable.strings */,
 				41532F841E24633600AA4B94 /* CustomSideMenuController.swift */,
-				41532F861E24665D00AA4B94 /* CenterViewController.swift */,
+				41532F861E24665D00AA4B94 /* AboutViewController.swift */,
 				41532F881E24669700AA4B94 /* SideViewController.swift */,
 				41532F991E2482E800AA4B94 /* FundDetailViewController.swift */,
 				41532FA01E248CAA00AA4B94 /* AvailableFunds.plist */,
 				41532FA61E24CB8B00AA4B94 /* RiskProfiler.plist */,
 				41532FA41E24B2FD00AA4B94 /* QuestionnaireViewController.swift */,
 				41532FB21E24EC6E00AA4B94 /* QuestionnaireResultsViewController.swift */,
+				4106FAD31E259B7A00B54F9F /* SubmitViewController.swift */,
 			);
 			path = booster;
 			sourceTree = "<group>";
@@ -358,7 +358,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41FC26621E245507004353D1 /* ViewController.swift in Sources */,
 				41532F8E1E2467E000AA4B94 /* SideMenuCell.swift in Sources */,
 				41532F951E247DF300AA4B94 /* QuestionnaireObject.swift in Sources */,
 				41532FA51E24B2FD00AA4B94 /* QuestionnaireViewController.swift in Sources */,
@@ -375,9 +374,10 @@
 				41532F9A1E2482E800AA4B94 /* FundDetailViewController.swift in Sources */,
 				41532F981E247E2800AA4B94 /* Helpers.swift in Sources */,
 				41532F851E24633600AA4B94 /* CustomSideMenuController.swift in Sources */,
+				4106FAD41E259B7A00B54F9F /* SubmitViewController.swift in Sources */,
 				41532F781E245CF100AA4B94 /* ClosureSelector.swift in Sources */,
 				41532F891E24669700AA4B94 /* SideViewController.swift in Sources */,
-				41532F871E24665D00AA4B94 /* CenterViewController.swift in Sources */,
+				41532F871E24665D00AA4B94 /* AboutViewController.swift in Sources */,
 				41532F741E245CF100AA4B94 /* ALLocalizableButton.swift in Sources */,
 				41532FB11E24D38A00AA4B94 /* QuestionCell.swift in Sources */,
 				41532F9D1E2489C500AA4B94 /* FundDetailCell.swift in Sources */,

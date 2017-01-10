@@ -32,7 +32,7 @@
                                 <rect key="frame" x="16" y="307" width="343" height="53"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jTr-Fe-hXd" customClass="ALLocalizableButton" customModule="booster" customModuleProvider="target">
-                                <rect key="frame" x="113" y="368" width="150" height="32"/>
+                                <rect key="frame" x="113" y="368" width="150" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="tVP-ym-TpV"/>
                                 </constraints>
@@ -96,11 +96,12 @@
                         <segue destination="xWq-16-HmT" kind="custom" identifier="embedSideController" customClass="SideContainmentSegue" customModule="SideMenuController" id="i41-fi-xGz"/>
                         <segue destination="kqR-eD-5uZ" kind="custom" identifier="DetailFundSegue" customClass="CenterContainmentSegue" customModule="SideMenuController" id="pfi-mv-JKV"/>
                         <segue destination="U5w-SR-RiV" kind="custom" identifier="QResultsSegue" customClass="CenterContainmentSegue" customModule="SideMenuController" id="unM-1C-dtK"/>
+                        <segue destination="EGr-Br-1WX" kind="presentation" identifier="SubmitSegue" id="xWH-By-iE0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fvY-ey-fp0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="785" y="123"/>
+            <point key="canvasLocation" x="772" y="123"/>
         </scene>
         <!--Side View Controller-->
         <scene sceneID="HVZ-qh-9FD">
@@ -187,7 +188,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LOv-Vm-rZt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2381.5999999999999" y="1118.5907046476761"/>
+            <point key="canvasLocation" x="2518" y="1119"/>
         </scene>
         <!--Questionnaire Results View Controller-->
         <scene sceneID="sqD-CE-Ebe">
@@ -202,7 +203,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your total score:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DtJ-yi-STR">
-                                <rect key="frame" x="16" y="72" width="343" height="33"/>
+                                <rect key="frame" x="16" y="72" width="343" height="35.5"/>
                                 <fontDescription key="fontDescription" name="CircularTT-Book" family="Circular TT" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -248,19 +249,19 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hjv-nN-gmg">
-                                <rect key="frame" x="16" y="573" width="343" height="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hjv-nN-gmg">
+                                <rect key="frame" x="16" y="599" width="343" height="0.0"/>
                                 <fontDescription key="fontDescription" name="CircularTT-Book" family="Circular TT" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAV-xF-lDX">
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAV-xF-lDX">
                                 <rect key="frame" x="187.5" y="333.5" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" name="CircularTT-Book" family="Circular TT" pointSize="80"/>
                                 <color key="textColor" red="0.0" green="0.49803921569999998" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1u-cN-Bsb" customClass="ALLocalizableButton" customModule="booster" customModuleProvider="target">
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1u-cN-Bsb" customClass="ALLocalizableButton" customModule="booster" customModuleProvider="target">
                                 <rect key="frame" x="87" y="607" width="200" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="ji7-R5-aRE"/>
@@ -310,6 +311,7 @@
                         <outlet property="gaugeView" destination="FKc-JM-Jag" id="R4c-wl-H1f"/>
                         <outlet property="resultLabel" destination="Hjv-nN-gmg" id="Jlu-88-NEg"/>
                         <outlet property="scoreLabel" destination="nAV-xF-lDX" id="XhI-yM-m9s"/>
+                        <outlet property="showBtn" destination="k1u-cN-Bsb" id="wf2-3z-1mP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dDc-qo-eNs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -365,10 +367,10 @@
             </objects>
             <point key="canvasLocation" x="3304.8000000000002" y="410.64467766116945"/>
         </scene>
-        <!--Center View Controller-->
+        <!--Booster.co.nz-->
         <scene sceneID="rPb-fZ-edE">
             <objects>
-                <viewController storyboardIdentifier="CenterVC" id="hyT-bE-SJ3" customClass="CenterViewController" customModule="booster" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AboutVC" title="Booster.co.nz" automaticallyAdjustsScrollViewInsets="NO" id="hyT-bE-SJ3" customClass="AboutViewController" customModule="booster" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="h9X-F1-nD5"/>
                         <viewControllerLayoutGuide type="bottom" id="Ga0-3S-GtU"/>
@@ -377,21 +379,189 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="center" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IiS-rN-8ZM">
-                                <rect key="frame" x="181" y="323" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XuH-Ku-igf">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TitleCell" textLabel="Ze2-Mf-K6z" style="IBUITableViewCellStyleDefault" id="yGe-HZ-TAb">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yGe-HZ-TAb" id="vHw-7T-wdQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ze2-Mf-K6z">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="CircularTT-Book" family="Circular TT" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TextCell" textLabel="6lH-pG-zNO" style="IBUITableViewCellStyleDefault" id="98y-cg-gZJ">
+                                        <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="98y-cg-gZJ" id="6Jm-TA-BRD">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6lH-pG-zNO">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="CircularTT-Book" family="Circular TT" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="hyT-bE-SJ3" id="hGS-LE-U3q"/>
+                                    <outlet property="delegate" destination="hyT-bE-SJ3" id="HFu-l1-97A"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="XuH-Ku-igf" secondAttribute="trailing" id="80e-vb-qGF"/>
+                            <constraint firstItem="XuH-Ku-igf" firstAttribute="top" secondItem="h9X-F1-nD5" secondAttribute="bottom" id="IhA-dk-c2w"/>
+                            <constraint firstItem="XuH-Ku-igf" firstAttribute="leading" secondItem="2no-DA-yI8" secondAttribute="leading" id="vYV-hX-nZq"/>
+                            <constraint firstItem="Ga0-3S-GtU" firstAttribute="top" secondItem="XuH-Ku-igf" secondAttribute="bottom" id="zb3-CY-h1C"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="AgV-ZT-hH1"/>
+                    <navigationItem key="navigationItem" title="Booster.co.nz" id="AgV-ZT-hH1"/>
+                    <connections>
+                        <outlet property="mainTableView" destination="XuH-Ku-igf" id="5Rd-Dd-eT0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="geL-fF-GS4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3305" y="-264"/>
+            <point key="canvasLocation" x="4244" y="-264.01799100449779"/>
+        </scene>
+        <!--Contact us-->
+        <scene sceneID="eie-y4-5Tt">
+            <objects>
+                <viewController id="tHp-fT-dAY" customClass="SubmitViewController" customModule="booster" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v0V-3d-Zcb"/>
+                        <viewControllerLayoutGuide type="bottom" id="vfT-IO-5qp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nky-PT-ty6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFB-hW-2gt" customClass="ALLocalizableButton" customModule="booster" customModuleProvider="target">
+                                <rect key="frame" x="112" y="613" width="150" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="GF1-uS-RNK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CircularTT-Book" family="Circular TT" pointSize="17"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.0" green="0.49803921569999998" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizeString" value="SubmitVC_Submit_Button"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.0" green="0.49803921569999998" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="highlightedColor">
+                                        <color key="value" red="0.59999999999999998" green="0.80000000000000004" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="sendEmailButtonTappedWithSender:" destination="tHp-fT-dAY" eventType="touchUpInside" id="XUX-bt-0nP"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Phone number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OeG-xM-rGO" customClass="ALLocalizableTextField" customModule="booster" customModuleProvider="target">
+                                <rect key="frame" x="16" y="193" width="343" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="dKY-XO-cxZ"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="CircularTT-Book" family="Circular TT" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholderLocalizeString" value="SubmitVC_Phone_Placeholder"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.0" green="0.49803921569999998" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="placeholderOffset">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BIV-E0-1Ty" customClass="ALLocalizableTextField" customModule="booster" customModuleProvider="target">
+                                <rect key="frame" x="16" y="145" width="343" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Q50-LO-yOf"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="CircularTT-Book" family="Circular TT" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholderLocalizeString" value="SubmitVC_Name_Placeholder"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.0" green="0.49803921569999998" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="placeholderOffset">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBf-K9-hKC" customClass="ALLocalizableLabel" customModule="booster" customModuleProvider="target">
+                                <rect key="frame" x="16" y="72" width="343" height="65"/>
+                                <fontDescription key="fontDescription" name="CircularTT-Book" family="Circular TT" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.49803921569999998" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizeString" value="SubmitVC_Title_Label"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BIV-E0-1Ty" firstAttribute="trailing" secondItem="nky-PT-ty6" secondAttribute="trailingMargin" id="1Hv-DY-iya"/>
+                            <constraint firstItem="gBf-K9-hKC" firstAttribute="trailing" secondItem="nky-PT-ty6" secondAttribute="trailingMargin" id="7dF-2b-CsA"/>
+                            <constraint firstItem="OeG-xM-rGO" firstAttribute="trailing" secondItem="nky-PT-ty6" secondAttribute="trailingMargin" id="LS9-VL-3Tb"/>
+                            <constraint firstItem="gBf-K9-hKC" firstAttribute="leading" secondItem="nky-PT-ty6" secondAttribute="leadingMargin" id="MxC-lB-Jdi"/>
+                            <constraint firstItem="vfT-IO-5qp" firstAttribute="top" secondItem="rFB-hW-2gt" secondAttribute="bottom" constant="20" id="RNp-1U-sWv"/>
+                            <constraint firstItem="BIV-E0-1Ty" firstAttribute="leading" secondItem="nky-PT-ty6" secondAttribute="leadingMargin" id="jE2-Vy-kbv"/>
+                            <constraint firstItem="OeG-xM-rGO" firstAttribute="top" secondItem="BIV-E0-1Ty" secondAttribute="bottom" constant="8" id="lPd-VM-fAC"/>
+                            <constraint firstItem="gBf-K9-hKC" firstAttribute="top" secondItem="v0V-3d-Zcb" secondAttribute="bottom" constant="8" id="oVn-uk-aaH"/>
+                            <constraint firstItem="BIV-E0-1Ty" firstAttribute="top" secondItem="gBf-K9-hKC" secondAttribute="bottom" constant="8" id="t2D-9N-SVw"/>
+                            <constraint firstItem="rFB-hW-2gt" firstAttribute="centerX" secondItem="nky-PT-ty6" secondAttribute="centerX" id="xUd-je-9dJ"/>
+                            <constraint firstItem="OeG-xM-rGO" firstAttribute="leading" secondItem="nky-PT-ty6" secondAttribute="leadingMargin" id="z0L-Sw-r1X"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Contact us" id="Jnm-U5-Zsm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oYZ-Hk-7cO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2428" y="-640.02998500749629"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="MQ4-2f-9CJ">
@@ -402,6 +572,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.0" green="0.49803921569999998" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -410,7 +583,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KAQ-gW-g1P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2518" y="-264"/>
+            <point key="canvasLocation" x="3456.8000000000002" y="-264.01799100449779"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="are-Ex-iZn">
@@ -455,6 +628,28 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bUm-DZ-hyG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3304.8000000000002" y="1118.5907046476761"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="sIj-dW-ptM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EGr-Br-1WX" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="zGd-9b-clU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.49803921569999998" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="tHp-fT-dAY" kind="relationship" relationship="rootViewController" id="3KN-TV-kK4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QKD-Bm-7a9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1488.8" y="-640.02998500749629"/>
         </scene>
     </scenes>
     <resources>
