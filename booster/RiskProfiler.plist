@@ -156,7 +156,7 @@
 		<key>Question</key>
 		<string>Consider you have an investment balance of at least $20,000 or more. If after a short period of time (less than 1 year) your balance has dropped in value, which statement relects best how you would feel about this?</string>
 		<key>ID</key>
-		<string>3</string>
+		<integer>3</integer>
 	</dict>
 	<dict>
 		<key>Answers</key>

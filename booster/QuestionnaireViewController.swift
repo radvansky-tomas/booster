@@ -36,16 +36,16 @@ class QuestionnaireViewController: UIViewController,UITableViewDelegate,UITableV
         }
         else
         {
-           customNavTitle.leftBarButtonItem = UIBarButtonItem(title: "Back", style: .plain, target: self, action: #selector(prevQuestion))
+            customNavTitle.leftBarButtonItem = UIBarButtonItem(title: NSLocalizedString("Global_Back", comment: "Back"), style: .plain, target: self, action: #selector(prevQuestion))
         }
         
         if isLast
         {
-            customNavTitle.rightBarButtonItem = UIBarButtonItem(title: "Submit", style: .plain, target: self, action: #selector(submit))
+            customNavTitle.rightBarButtonItem = UIBarButtonItem(title: NSLocalizedString("Global_Submit", comment: "Submit"), style: .plain, target: self, action: #selector(submit))
         }
         else
         {
-          customNavTitle.rightBarButtonItem = UIBarButtonItem(title: "Next", style: .plain, target: self, action: #selector(nextQuestion))
+            customNavTitle.rightBarButtonItem = UIBarButtonItem(title: NSLocalizedString("Global_Next", comment: "Next"), style: .plain, target: self, action: #selector(nextQuestion))
         }
         
         self.mainTableView.register(UINib.init(nibName: "QuestionCell", bundle: nil), forCellReuseIdentifier: "QuestionCell")
@@ -104,18 +104,18 @@ class QuestionnaireViewController: UIViewController,UITableViewDelegate,UITableV
         questionCell.customTextLabel.text = self.currentQuestion?.answers?[indexPath.row].text
         if indexPath.row == self.selected
         {
-           questionCell.imageView?.image = UIImage(icon: .FACheckSquare, size: CGSize.init(width: 16.0, height: 16.0), textColor: DefaultTheme.Color(color: .primaryColorDark), backgroundColor: UIColor.clear)
+            questionCell.imageView?.image = UIImage(icon: .FACheckSquare, size: CGSize.init(width: 16.0, height: 16.0), textColor: DefaultTheme.Color(color: .primaryColorDark), backgroundColor: UIColor.clear)
         }
         else
         {
-        questionCell.imageView?.image = UIImage(icon: .FASquareO, size: CGSize.init(width: 16.0, height: 16.0), textColor: DefaultTheme.Color(color: .primaryColorDark), backgroundColor: UIColor.clear)
+            questionCell.imageView?.image = UIImage(icon: .FASquareO, size: CGSize.init(width: 16.0, height: 16.0), textColor: DefaultTheme.Color(color: .primaryColorDark), backgroundColor: UIColor.clear)
         }
         return questionCell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.selected = indexPath.row
-        tableView.reloadSections(IndexSet.init(integer: 0), with: .automatic)
+        tableView.reloadSections(IndexSet.init(integer: 0), with: .none)
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
@@ -139,7 +139,7 @@ class QuestionnaireViewController: UIViewController,UITableViewDelegate,UITableV
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         if let questionString:String = self.currentQuestion?.question
         {
-           return questionString.heightWithConstrainedWidth(width: tableView.frame.size.width - 40.0, font: UIFont.systemFont(ofSize: 20.0))
+            return questionString.heightWithConstrainedWidth(width: tableView.frame.size.width - 40.0, font: DefaultTheme.Font(size: 20.0))
         }
         else
         {

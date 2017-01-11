@@ -23,17 +23,17 @@ enum InvestorType:Int {
     {
         switch self {
         case .Defensive:
-            return "Defensive"
+            return NSLocalizedString("InvestorType_Defensive", comment: "Defensive")
         case .Conservative:
-            return "Conservative"
+            return NSLocalizedString("InvestorType_Conservative", comment: "Conservative")
         case .Balanced:
-            return "Balanced"
+            return NSLocalizedString("InvestorType_Balanced", comment: "Balanced")
         case .BalancedGrowth:
-            return "Balanced Growth"
+            return NSLocalizedString("InvestorType_BalancedGrowth", comment: "Balanced Growth")
         case .Growth:
-            return "Growth"
+            return NSLocalizedString("InvestorType_Growth", comment: "Growth")
         case .AggressiveGrowth:
-            return "Aggressive Growth"
+            return NSLocalizedString("InvestorType_AggressiveGrowth", comment: "Aggressive Growth")
         }
     }
     
@@ -83,19 +83,5 @@ enum InvestorType:Int {
         default:
             return .Defensive
         }
-    }
-}
-
-class Helpers: NSObject {
-    
-    class func attributedSizedString(input:String, fontSize:CGFloat)->NSAttributedString
-   {
-    let style = NSMutableParagraphStyle()
-    style.lineBreakMode = .byWordWrapping
-    
-    let attrs:[String:Any] = [NSFontAttributeName:UIFont.systemFont(ofSize: fontSize),NSParagraphStyleAttributeName:style]
-    let result:NSAttributedString = NSAttributedString(string: input, attributes: attrs)
-    
-    return result
     }
 }

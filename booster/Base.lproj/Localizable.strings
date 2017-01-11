@@ -8,6 +8,7 @@
 
 Global_Ok = "Ok";
 Global_Cancel = "Cancel";
+Global_Back = "Back";
 Global_Yes = "Yes";
 Global_No = "No";
 Global_Done = "Done";
@@ -15,15 +16,34 @@ Global_Save = "Save";
 Global_Send = "Send";
 Global_Next = "Next";
 Global_Prev = "Prev";
-Global_Retry = "Retry";
+Global_Submit = "Submit";
 Global_Error = "Error";
+
+InvestorType_Defensive = "Defensive";
+InvestorType_Conservative = "Conservative";
+InvestorType_Balanced = "Balanced";
+InvestorType_BalancedGrowth = "Balanced Growth";
+InvestorType_Growth = "Growth";
+InvestorType_AggressiveGrowth = "Aggressive Growth";
+
+SideMenu_InvestorTypes_Header = "Investor Types";
+SideMenu_Questionnaire_Header = "Questionnaire";
+
 
 WelcomeVC_Welcome_Button = "Welcome";
 AboutVC_Title_Label = "Hello, we're Booster";
-AboutVC_Title_Text = "The name Booster is new but we’re older than we look.When we started way back in 1998 it was with a handful of people and that can-do attitude that makes things happen. We knew we could create a better way for people to save. Back then we called ourselves Grosvenor Financial Services. And we knew money inside and out.Today we’re still money experts and we’re on a mission to help you become money-smart. We know money isn’t simple but it doesn’t need to be as hard as it is now. It seems as if big institutions have it all sewn up but we believe that’s wrong – Kiwis should know how to make sense of their money.Keeping it simple, we took a good hard look at ourselves and realised we had a name that most people couldn’t pronounce – so we became Booster.";
+AboutVC_Title_Text = "The name Booster is new but we’re older than we look.\rWhen we started way back in 1998 it was with a handful of people and that can-do attitude that makes things happen. We knew we could create a better way for people to save. Back then we called ourselves Grosvenor Financial Services. And we knew money inside and out.\rToday we’re still money experts and we’re on a mission to help you become money-smart. We know money isn’t simple but it doesn’t need to be as hard as it is now. It seems as if big institutions have it all sewn up but we believe that’s wrong – Kiwis should know how to make sense of their money.\rKeeping it simple, we took a good hard look at ourselves and realised we had a name that most people couldn’t pronounce – so we became Booster.";
+
+QuestionnaireVC_Navigation_Title = "Question %d/%d";
+
+ResultsVC_Navigation_Title = "Results";
+ResultsVC_Result_Title = "Your total score is:";
+ResultsVC_Result_Message = "You are &@ investor!";
 
 SubmitVC_Phone_Placeholder = "Phone number";
 SubmitVC_Name_Placeholder = "Name";
 SubmitVC_Submit_Button = "Submit";
 SubmitVC_Title_Label = "Thank you for filling questionnaire, now you can send your answers. Or if you prefer to call us, we’d love to have a chat.";
+SubmitVC_Email_Subject = "Questionnaire from %@";
+SubmitVC_Email_Message = "Name: %@ \nPhone: %@\nData: %@";
 

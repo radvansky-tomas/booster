@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 class AboutViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
-     @IBOutlet weak var mainTableView: UITableView!
+    @IBOutlet weak var mainTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,7 +40,7 @@ class AboutViewController: UIViewController,UITableViewDelegate,UITableViewDataS
         }
         else
         {
-             let textCell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "TextCell", for: indexPath)
+            let textCell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "TextCell", for: indexPath)
             textCell.contentView.backgroundColor = DefaultTheme.Color(color: .secondaryColor)
             textCell.textLabel?.text = NSLocalizedString("AboutVC_Title_Text", comment: "About us")
             textCell.textLabel?.backgroundColor = UIColor.clear

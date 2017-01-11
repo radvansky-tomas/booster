@@ -25,7 +25,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="260" height="50"/>
                     <subviews>
                         <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HkM-Yl-XAM">
-                            <rect key="frame" x="16" y="0.0" width="244" height="50"/>
+                            <rect key="frame" x="16" y="0.0" width="228" height="50"/>
                             <fontDescription key="fontDescription" name="CircularTT-Book" family="Circular TT" pointSize="17"/>
                             <color key="textColor" red="0.0" green="0.49803921569999998" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
                             <color key="highlightedColor" red="0.0" green="0.49803921569999998" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -43,7 +43,7 @@
                     <constraints>
                         <constraint firstItem="HkM-Yl-XAM" firstAttribute="top" secondItem="XUY-uO-QAY" secondAttribute="top" id="Gdb-qh-tXf"/>
                         <constraint firstItem="HkM-Yl-XAM" firstAttribute="leading" secondItem="XUY-uO-QAY" secondAttribute="leadingMargin" constant="8" id="KML-q4-E3o"/>
-                        <constraint firstItem="HkM-Yl-XAM" firstAttribute="trailing" secondItem="XUY-uO-QAY" secondAttribute="trailingMargin" constant="8" id="Lsx-4y-pgG"/>
+                        <constraint firstItem="HkM-Yl-XAM" firstAttribute="trailing" secondItem="XUY-uO-QAY" secondAttribute="trailingMargin" constant="-8" id="Lsx-4y-pgG"/>
                         <constraint firstAttribute="bottom" secondItem="A3s-c8-dOF" secondAttribute="bottom" constant="2" id="Z5h-yf-saj"/>
                         <constraint firstAttribute="bottom" secondItem="HkM-Yl-XAM" secondAttribute="bottom" id="fP4-X9-zzJ"/>
                         <constraint firstItem="A3s-c8-dOF" firstAttribute="leading" secondItem="XUY-uO-QAY" secondAttribute="leading" id="lKy-ZE-xUz"/>

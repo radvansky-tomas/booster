@@ -26,4 +26,9 @@ class DefaultTheme {
     {
         return UIColor(hexString: color.rawValue)
     }
+    
+    class func Font(size:CGFloat)->UIFont
+    {
+        return UIFont(name: "Circulartt-Book", size: size)!
+    }
 }

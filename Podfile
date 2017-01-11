@@ -11,4 +11,5 @@ target 'booster' do
     pod 'Pages'
     pod 'Font-Awesome-Swift', '~> 1.5.2'
     pod 'GaugeKit'
+    pod 'IQKeyboardManagerSwift'
 end

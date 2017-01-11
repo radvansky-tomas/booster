@@ -4,6 +4,7 @@ PODS:
   - Charts/Core (3.0.1)
   - Font-Awesome-Swift (1.5.3)
   - GaugeKit (0.4.0)
+  - IQKeyboardManagerSwift (4.0.8)
   - Pages (1.0.0)
   - SideMenuController (0.2.1)
 
@@ -11,6 +12,7 @@ DEPENDENCIES:
   - Charts
   - Font-Awesome-Swift (~> 1.5.2)
   - GaugeKit
+  - IQKeyboardManagerSwift
   - Pages
   - SideMenuController
 
@@ -18,9 +20,10 @@ SPEC CHECKSUMS:
   Charts: 0e84f4418e87dad6a9edde221fba37ebb51d3ba7
   Font-Awesome-Swift: 6615ee6b875d148f767ea60b5b4ff54e2ea3122e
   GaugeKit: 422d082cfd8abf68d6df0b4ec625b4d19d39c89e
+  IQKeyboardManagerSwift: c04bc9f68473823f825eb44d958fce98d921bead
   Pages: f3718e6f03a5e2787f6b0bff4becb3c7c19bcebc
   SideMenuController: 4c543122289d74e1db9d1e24fd3264581fd6ac4e
 
-PODFILE CHECKSUM: 759d9da74aff75bdf00ab11c8d50a7de46f826fb
+PODFILE CHECKSUM: 1263800c70389cb57f34c93d40ce4d21b41c7031
 
 COCOAPODS: 1.2.0.beta.1

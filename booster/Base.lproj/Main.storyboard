@@ -202,11 +202,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your total score:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DtJ-yi-STR">
-                                <rect key="frame" x="16" y="72" width="343" height="35.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your total score:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DtJ-yi-STR" customClass="ALLocalizableLabel" customModule="booster" customModuleProvider="target">
+                                <rect key="frame" x="16" y="72" width="343" height="36"/>
                                 <fontDescription key="fontDescription" name="CircularTT-Book" family="Circular TT" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizeString" value="ResultsVC_Result_Title"/>
+                                </userDefinedRuntimeAttributes>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FKc-JM-Jag" customClass="Gauge" customModule="GaugeKit">
                                 <rect key="frame" x="36" y="182" width="303" height="303"/>
@@ -256,7 +259,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAV-xF-lDX">
-                                <rect key="frame" x="187.5" y="333.5" width="0.0" height="0.0"/>
+                                <rect key="frame" x="188" y="334" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" name="CircularTT-Book" family="Circular TT" pointSize="80"/>
                                 <color key="textColor" red="0.0" green="0.49803921569999998" blue="0.76862745099999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -280,6 +283,9 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="highlightedColor">
+                                        <color key="value" red="0.62745098040000002" green="0.79742296010000002" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
@@ -491,7 +497,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="CircularTT-Book" family="Circular TT" pointSize="17"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="phonePad"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="placeholderLocalizeString" value="SubmitVC_Phone_Placeholder"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
@@ -515,7 +521,7 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="CircularTT-Book" family="Circular TT" pointSize="17"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="alphabet"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="placeholderLocalizeString" value="SubmitVC_Name_Placeholder"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
@@ -558,6 +564,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Contact us" id="Jnm-U5-Zsm"/>
+                    <connections>
+                        <outlet property="nameTextfield" destination="BIV-E0-1Ty" id="Oeq-ia-q4F"/>
+                        <outlet property="phoneTextField" destination="OeG-xM-rGO" id="pGr-82-UT5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oYZ-Hk-7cO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

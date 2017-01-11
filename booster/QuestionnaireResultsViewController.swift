@@ -21,7 +21,7 @@ class QuestionnaireResultsViewController: UIViewController {
     var score:Int = 0
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Results"
+        self.title = NSLocalizedString("ResultsVC_Navigation_Title", comment: "Results")
         if let resultUnwrapped:[String:Int] = self.result
         {
             for entry in resultUnwrapped.values
@@ -29,7 +29,8 @@ class QuestionnaireResultsViewController: UIViewController {
                 score = score + entry
             }
             gaugeView.animateRate(1.5, newValue: CGFloat(score), completion: { (completed) in
-                self.resultLabel.text = "You are \(InvestorType.getTypeByScore(score: self.score).getDescription().lowercased()) investor!"
+                self.resultLabel.text = String(format: NSLocalizedString("ResultsVC_Result_Message", comment: "You are %@ investor !"), InvestorType.getTypeByScore(score: self.score).getDescription().lowercased())
+                
                 self.scoreLabel.text = "\(self.score)"
                 
                 UIView.animate(withDuration: 0.5, animations: {

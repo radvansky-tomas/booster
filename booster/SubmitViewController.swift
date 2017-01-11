@@ -11,6 +11,12 @@ import UIKit
 import MessageUI
 
 class SubmitViewController: UIViewController,MFMailComposeViewControllerDelegate {
+    var data:[String:Int]?
+    
+    @IBOutlet weak var nameTextfield: ALLocalizableTextField!
+    
+    @IBOutlet weak var phoneTextField: ALLocalizableTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -28,10 +34,12 @@ class SubmitViewController: UIViewController,MFMailComposeViewControllerDelegate
         let mailComposerVC = MFMailComposeViewController()
         mailComposerVC.mailComposeDelegate = self // Extremely important to set the --mailComposeDelegate-- property, NOT the --delegate-- property
         
-        mailComposerVC.setToRecipients(["someone@somewhere.com"])
-        mailComposerVC.setSubject("Sending you an in-app e-mail...")
-        mailComposerVC.setMessageBody("Sending e-mail in-app is not so bad!", isHTML: false)
-        
+        mailComposerVC.setToRecipients(["me@example.com"])
+        mailComposerVC.setSubject(String(format: NSLocalizedString("SubmitVC_Email_Subject", comment: "Subject"), nameTextfield.text.safeValue))
+        if let dataU:[String:Int] = self.data
+        {
+            mailComposerVC.setMessageBody(String(format: NSLocalizedString("SubmitVC_Email_Message", comment: "Subject"), nameTextfield.text.safeValue,phoneTextField.text.safeValue,dataU.description), isHTML: false)
+        }
         return mailComposerVC
     }
     

@@ -25,18 +25,16 @@ class SideViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     }
     
     func sideMenuControllerDidHide(_ sideMenuController: SideMenuController) {
-        print("hide")
     }
     
     func sideMenuControllerDidReveal(_ sideMenuController: SideMenuController) {
-        print("reveal")
         self.mainTableView.reloadData()
     }
     
     override func viewDidAppear(_ animated: Bool) {
         self.mainTableView.reloadData()
     }
- 
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -72,7 +70,7 @@ class SideViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         }
         else
         {
-            sideMenuCell.customTextLabel.text = "Submit"
+            sideMenuCell.customTextLabel.text = NSLocalizedString("Global_Submit", comment: "Submit")
         }
         return sideMenuCell
     }
@@ -85,12 +83,12 @@ class SideViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         
         if section == 0
         {
-            header.customLabel.text = "Investor Types"
+            header.customLabel.text = NSLocalizedString("SideMenu_InvestorTypes_Header", comment: "Investor Types")
             header.customButton.isUserInteractionEnabled = false
         }
         else
         {
-            header.customLabel.text = "Questionnaire"
+            header.customLabel.text = NSLocalizedString("SideMenu_Questionnaire_Header", comment: "Questionnaire")
             header.customButton.isUserInteractionEnabled = true
             header.customButton.addTarget(forControlEvents: .touchUpInside, withClosure: { (control) in
                 if let customSideMenuController:CustomSideMenuController = self.sideMenuController as? CustomSideMenuController
@@ -101,7 +99,7 @@ class SideViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
                         return
                     }
                 }
-               //Pager
+                //Pager
                 //Get Questions
                 //Load plist
                 var format = PropertyListSerialization.PropertyListFormat.xml //format of the property list
@@ -121,7 +119,7 @@ class SideViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
                             let parsedQuestion:QuestionnaireObject = QuestionnaireObject(plist: question as! [String : AnyObject])
                             let questionVC:QuestionnaireViewController = storyboard.instantiateViewController(withIdentifier: "QuestionnaireVC") as! QuestionnaireViewController
                             questionVC.currentQuestion = parsedQuestion
-                            questionVC.title = "Question \(index)/\(data.count)"
+                            questionVC.title = String(format:NSLocalizedString("QuestionnaireVC_Navigation_Title", comment: "Question ?/?"),index,data.count)
                             questionVC.delegate = self
                             if index == 1
                             {
@@ -160,11 +158,11 @@ class SideViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if indexPath.section == 0
         {
-         sideMenuController?.performSegue(withIdentifier: "DetailFundSegue", sender: indexPath.row)
+            sideMenuController?.performSegue(withIdentifier: "DetailFundSegue", sender: indexPath.row)
         }
         else
         {
-              sideMenuController?.performSegue(withIdentifier: "SubmitSegue", sender: nil)
+            sideMenuController?.performSegue(withIdentifier: "SubmitSegue", sender: nil)
         }
     }
     
